@@ -6,5 +6,5 @@
 
 source lib/autotools.bash
 
-readonly TMUX_VERSION=1.8
-autotools "http://sourceforge.net/projects/tmux/files/tmux/tmux-$TMUX_VERSION/tmux-$TMUX_VERSION.tar.gz"
+readonly TMUX_VERSION=2.6
+autotools "https://github.com/tmux/tmux/releases/download/$TMUX_VERSION/tmux-$TMUX_VERSION.tar.gz"
